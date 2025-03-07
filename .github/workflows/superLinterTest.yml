@@ -30,6 +30,6 @@ jobs:
         env:
           # Only run for html files
           VALIDATE_HTML_PRETTIER: false
-          FILTER_REGEX_INCLUDE: /*.html
+          FILTER_REGEX_INCLUDE: .*html$
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
